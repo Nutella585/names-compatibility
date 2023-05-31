@@ -7,7 +7,11 @@ This iOS app predicts the name compatibility between two names and provides the 
 
 ## Screenshots
 
-Insert screenshots of the app views here.
+![Name Compatibility App Screens](https://github.com/Nutella585/names-compatibility/blob/main/md-images/screens.png)
+Screens
+
+![Name Compatibility App Icon](https://github.com/Nutella585/names-compatibility/blob/main/md-images/app-icon.png)
+App Icon
 
 ## Features
 
@@ -42,14 +46,6 @@ Insert screenshots of the app views here.
 - Swift
 - Xcode
 - UIKit
-
-## Implementation Details
-
-The app utilizes Swift and UIKit to implement the following components:
-
-- `ViewController`: Manages the first view with the input fields and "See Result" button.
-- `ResultViewController`: Manages the second view and displays the compatibility percentage.
-- `NameCompatibilityService`: Calculates the compatibility percentage between two names.
 
 ## License
 
