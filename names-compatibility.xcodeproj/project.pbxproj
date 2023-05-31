@@ -13,6 +13,8 @@
 		E93DE2412A2600FB002894F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93DE23F2A2600FB002894F0 /* Main.storyboard */; };
 		E93DE2432A2600FC002894F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93DE2422A2600FC002894F0 /* Assets.xcassets */; };
 		E93DE2462A2600FC002894F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93DE2442A2600FC002894F0 /* LaunchScreen.storyboard */; };
+		E93DE24E2A266900002894F0 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93DE24D2A266900002894F0 /* ResultController.swift */; };
+		E93DE2512A2743B9002894F0 /* WarningEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93DE2502A2743B9002894F0 /* WarningEnums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E93DE2422A2600FC002894F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E93DE2452A2600FC002894F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E93DE2472A2600FC002894F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E93DE24D2A266900002894F0 /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		E93DE2502A2743B9002894F0 /* WarningEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WarningEnums.swift; path = "names-compatibility/Enums/WarningEnums.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,33 @@
 		E93DE2382A2600FB002894F0 /* names-compatibility */ = {
 			isa = PBXGroup;
 			children = (
+				E93DE2522A2743F8002894F0 /* Enums */,
 				E93DE2392A2600FB002894F0 /* AppDelegate.swift */,
 				E93DE23B2A2600FB002894F0 /* SceneDelegate.swift */,
-				E93DE23D2A2600FB002894F0 /* ViewController.swift */,
+				E93DE24F2A26690A002894F0 /* Controllers */,
 				E93DE23F2A2600FB002894F0 /* Main.storyboard */,
 				E93DE2422A2600FC002894F0 /* Assets.xcassets */,
 				E93DE2442A2600FC002894F0 /* LaunchScreen.storyboard */,
 				E93DE2472A2600FC002894F0 /* Info.plist */,
 			);
 			path = "names-compatibility";
+			sourceTree = "<group>";
+		};
+		E93DE24F2A26690A002894F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E93DE23D2A2600FB002894F0 /* ViewController.swift */,
+				E93DE24D2A266900002894F0 /* ResultController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E93DE2522A2743F8002894F0 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E93DE2502A2743B9002894F0 /* WarningEnums.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93DE24E2A266900002894F0 /* ResultController.swift in Sources */,
 				E93DE23E2A2600FB002894F0 /* ViewController.swift in Sources */,
+				E93DE2512A2743B9002894F0 /* WarningEnums.swift in Sources */,
 				E93DE23A2A2600FB002894F0 /* AppDelegate.swift in Sources */,
 				E93DE23C2A2600FB002894F0 /* SceneDelegate.swift in Sources */,
 			);
